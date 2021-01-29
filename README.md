@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Git Commit History App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The application uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest) in order to get all the commits from the repository.
+
+## Usage
+
+1. Clone this repo: git clone https://github.com/BadinhoCornejo/git-commit-history.git
+2. Run `yarn` or `npm install`
+3. Run `yarn start`
+4. Enjoy
+
+[LIVE DEMO!](https://git-commit-history.herokuapp.com/)
 
 ## Available Scripts
 
