@@ -20,7 +20,7 @@ export const useRequest = ({ method, url, body, onSuccess }: Props) => {
       setCommits([]);
       setLoading(true);
       const response = await getCommits(url);
-      setCommits(commits.concat(response));
+      setCommits(response);
       setLoading(false);
       if (onSuccess) {
         onSuccess(commits);
